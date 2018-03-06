@@ -2,15 +2,24 @@ body {
     /*padding-left: 30px;*/
 }
 
+h1 {
+    margin: 0px;
+}
+
 h1 a {
     color: orange;
     font-family: 'Lobster';
+    margin: 0px;
 }
 
 .page-header {
     background-color: #ff9400;
-    margin-top: 0;
-    padding: 20px 20px 20px 40px;
+    margin: 0;
+    padding: 20px 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
@@ -41,9 +50,12 @@ h1, h2, h3, h4 {
 
 .top-menu, .top-menu:hover, .top-menu:visited {
     color: #ffffff;
-    float: right;
     font-size: 26pt;
-    margin-right: 20px;
+}
+
+.add-post{
+    padding-bottom: 5px;
+    margin: 0 10px;
 }
 
 .post {
